@@ -2,6 +2,6 @@
     Home!
     <form @submit.prevent>
     <input type="password" />
-        <button>Submit</button>
+        <button @click="$router.push('/about')">Submit</button>
         </form>
 </template>
